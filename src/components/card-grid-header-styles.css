@@ -1,0 +1,32 @@
+.popular-header {
+  margin: 3rem 0;
+}
+.header-card {
+  background-image: linear-gradient(0deg, #ff8a00, #e52e71);
+  position: relative;
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 0 4rem 0 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex: 0 0 300px;
+}
+
+.header-card-title {
+  font-size: 1.6rem;
+  margin: 0 0 0.5rem;
+}
+
+.header-card p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+.header-card-sponsor {
+  color: black;
+}
+
+.picture {
+  max-width: 80px;
+  border-radius: 1rem;
+}
