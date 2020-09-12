@@ -23,6 +23,16 @@
   max-width: 80px;
   border-radius: 1rem;
   position: absolute;
-  right: 4rem;
+  right: 1rem;
   top: 2rem;
+}
+.social{
+  text-align: right;
+  position: absolute;
+  right: 1rem;
+  bottom: 0.5rem;
+}
+
+.social a{
+  padding: 2px;
 }
