@@ -3,9 +3,6 @@
 :before {
   box-sizing: border-box;
 }
-.mini-article-card-header {
-  margin-bottom: auto;
-}
 a {
   color: #fff;
 }
@@ -24,6 +21,7 @@ time {
   -webkit-overflow-scrolling: touch;
 }
 .mini-card {
+  cursor: pointer;
   min-width: 300px;
   min-height: 350px;
   padding: 1.5rem;
@@ -66,7 +64,7 @@ time {
 }
 
 .mini-article-byline {
-  margin: 3rem 0 0;
+  margin: 1rem 0 0;
   display: grid;
   grid-template-columns: 75px 1fr;
   align-items: center;
@@ -162,7 +160,7 @@ time {
 }
 
 .tags {
-  margin: 1rem 0 2rem;
+  /* margin: 1rem 0 2rem; */
   padding: 0.5rem 0 1rem;
   line-height: 2;
 }

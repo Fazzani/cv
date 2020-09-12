@@ -3,6 +3,7 @@
   position: relative;
   border-radius: 16px;
   padding: 2rem;
+  position: relative;
 }
 
 .header-card-title {
@@ -21,4 +22,7 @@
 .picture {
   max-width: 80px;
   border-radius: 1rem;
+  position: absolute;
+  right: 4rem;
+  top: 2rem;
 }

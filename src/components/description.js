@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 
 export const Description = ({ section }) => {
+  const descRef = useRef(null);
+
+  useEffect(() => {
+    descRef.current.scrollIntoView({ behavior: 'smooth' });
+  });
   return (
-    <div className="description-bloc">
-      <ListDescription list={section.Missions} title={"Missions"}></ListDescription>
-      <ListDescription list={section.Achievements} title={"Achievements"}></ListDescription>
+    <div className="description-bloc" ref={descRef}>
+      <ListDescription list={section.Missions} title={'Missions'}></ListDescription>
+      <ListDescription list={section.Achievements} title={'Achievements'}></ListDescription>
     </div>
   );
 };
