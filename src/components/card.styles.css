@@ -122,14 +122,6 @@ summary {
   box-sizing: border-box;
 }
 
-.popular-articles {
-  box-sizing: content-box;
-  display: flex;
-  width: calc(100vw - 71px);
-  /* margin: 0 0 5rem; */
-  padding: 2rem 0;
-}
-
 @media (max-width: 1200px) {
   .popular-articles .mini-card {
     scroll-snap-align: start;

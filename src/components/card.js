@@ -76,9 +76,9 @@ export default function Company({ company }) {
   );
 }
 
-export const Card = ({ article }) => {
+export const Card = ({ article, onSectionChange }) => {
   return (
-    <article className="mini-card article" id={article.$id}>
+    <article className="mini-card article" id={article.$id} onClick={onSectionChange}>
       <header className="mini-article-card-header">
         <div className="mini-article-card-title">
           <div className="mini-article-subhead">

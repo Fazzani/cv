@@ -28,12 +28,20 @@
       ],
       "Tags": ["ELK", ".net core", "angular", "AWS", "Kubernetes", "TeamCity", "Octopus"],
       "$type": "ExperienceSection",
-      "Company": { "Name": "Engie", "Logo": "https://opera-energie.com/wp-content/uploads/Engie-1200-1-800x400-300x150 png", "Site": "https://www.engie.com" },
+      "Company": {
+        "Name": "Engie",
+        "Logo": "https://opera-energie.com/wp-content/uploads/Engie-1200-1-800x400-300x150 png",
+        "Site": "https://www.engie.com"
+      },
       "$id": 0
     },
     {
       "Title": "Architecte",
-      "Company": { "Name": "SeLoger", "Logo": "https://welmo.fr/blog/wp-content/uploads/2019/08/logo-seloger.png", "Site": "https://seloger.com" },
+      "Company": {
+        "Name": "SeLoger",
+        "Logo": "https://welmo.fr/blog/wp-content/uploads/2019/08/logo-seloger.png",
+        "Site": "https://seloger.com"
+      },
       "StartDate": "31/08/2017",
       "EndDate": "31/05/2019",
       "Missions": [
@@ -51,7 +59,11 @@
     },
     {
       "Title": "Architecte",
-      "Company": { "Name": "BusinessLine", "Logo": "https://www.businessline.fr/wp-content/uploads/2018/06/logo-vecto-blue-1.png", "Site": "https://www.businessline.fr/" },
+      "Company": {
+        "Name": "BusinessLine",
+        "Logo": "https://www.businessline.fr/wp-content/uploads/2018/06/logo-vecto-blue-1.png",
+        "Site": "https://www.businessline.fr/"
+      },
       "StartDate": "01/05/2015",
       "EndDate": "01/04/2017",
       "Missions": ["Refonte de la solution ITSM ainsi que tous les services qui gravitent autour", "Formation et appui des développeurs"],
@@ -81,7 +93,11 @@
     },
     {
       "Title": "Référent technique",
-      "Company": { "Name": "LogicImmo", "Logo": "https://images-eu.ssl-images-amazon.com/images/I/517eLtIoYdL.png", "Site": "https://www.logic-immo.com" },
+      "Company": {
+        "Name": "LogicImmo",
+        "Logo": "https://images-eu.ssl-images-amazon.com/images/I/517eLtIoYdL.png",
+        "Site": "https://www.logic-immo.com"
+      },
       "StartDate": "01/11/2011",
       "EndDate": "31/07/2014",
       "Missions": [
@@ -92,11 +108,15 @@
       "Achievements": ["TopAnnonces Mobile", "LesBonnesPromos.fr", "TopAnnonces.fr"],
       "Tags": [".net", "Entity framework,", "ASP.net MVC", "Oracle", "TFS", "Azure"],
       "$type": "ExperienceSection",
-      "$id": 3
+      "$id": 4
     },
     {
       "Title": "Référent technique",
-      "Company": { "Name": "GDF Suez", "Logo": "https://static.covivo.eu/images/community/engie-ex-gdf-suez_20170712091634000000.png", "Site": "https://www.engie.com" },
+      "Company": {
+        "Name": "GDF Suez",
+        "Logo": "https://static.covivo.eu/images/community/engie-ex-gdf-suez_20170712091634000000.png",
+        "Site": "https://www.engie.com"
+      },
       "StartDate": "01/07/2010",
       "EndDate": "31/10/2011",
       "Missions": ["Réalisation d’une solution de gestion et de supervision de l'acheminement du gaz en temps réel, pour GDF Suez"],
@@ -107,7 +127,7 @@
       ],
       "Tags": ["SqlServer 2008", "WPF", "Visual Studio 2008", "Subversion", "TeamCity"],
       "$type": "ExperienceSection",
-      "$id": 3
+      "$id": 5
     },
     {
       "Title": "Team Leader",
@@ -129,7 +149,7 @@
       "Achievements": ["La refonte de système d’information national de la société SONEDE", "La refonte des solutions de gestion d’énergie (Eaux, Gaz, Electricité, et Déchets)"],
       "Tags": [".net", "Oracle", "Infragistics,", "SubVersion", "TFS"],
       "$type": "ExperienceSection",
-      "$id": 3
+      "$id": 6
     }
   ]
 }
