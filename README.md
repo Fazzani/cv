@@ -3,7 +3,8 @@
 ## TODO
 
 - [ ] download CV pdf version
-- [ ] display experience details
+- [x] display experience details
+- [ ] Add icons for email, tél, github, linkedin
 - [ ] add links to:
   - [ ] Github
   - [ ] Linkedin
