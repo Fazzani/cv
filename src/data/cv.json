@@ -3,7 +3,7 @@
   "Title": "Architecte/Developer MS technologies",
   "Candidate": {
     "FirstName": "Heni",
-    "LastName": "Fazzani",
+    "LastName": "FAZZANI",
     "Birthday": "28/08/1982",
     "Tel": "0667426421",
     "Email": "heni.fazzani@gmail.com",
@@ -18,6 +18,25 @@
     }
   },
   "Sections": [
+    {
+      "Title": "Technical Lead",
+      "StartDate": "12/09/2020",
+      "EndDate": "31/03/2022",
+      "Missions": ["Participation à la mise en marché de la solution Cadhoc.","Participation au développement et la mise en marché de la solution Uptimise.", "Devops transverse"],
+      "Achievements": [
+        "Mise en place de Sonar (analyseur de code)",
+        "Mise en place et en marché d'uptimise",
+        "Mise en marché de Cadhoc"
+      ],
+      "Tags": ["Azure", "Azure Devops", ".net core", "react", "terraform"],
+      "$type": "ExperienceSection",
+      "Company": {
+        "Name": "Up",
+        "Logo": "https://backoffice.up.coop/app/uploads/2018/09/up-logo.png",
+        "Site": "https://up.coop"
+      },
+      "$id": 0
+    },
     {
       "Title": "Consultant",
       "StartDate": "29/07/2019",
@@ -35,7 +54,7 @@
         "Logo": "https://opera-energie.com/wp-content/uploads/Engie-1200-1-800x400-300x150 png",
         "Site": "https://www.engie.com"
       },
-      "$id": 0
+      "$id": 1
     },
     {
       "Title": "Architecte",
@@ -57,7 +76,7 @@
       ],
       "Tags": [".net core", "Graphql", "AWS", "Kubernetes", "Docker", "DatagDog", "Circleci", "Jenkins", "Teamcity", "SqlServer", "Github"],
       "$type": "ExperienceSection",
-      "$id": 1
+      "$id": 2
     },
     {
       "Title": "Architecte",
@@ -76,7 +95,7 @@
       ],
       "Tags": [".net", "SqlServer", "Azure Devops", "Angularjs"],
       "$type": "ExperienceSection",
-      "$id": 2
+      "$id": 3
     },
     {
       "Title": "Consultant",
@@ -85,13 +104,13 @@
         "Logo": "https://static.wixstatic.com/media/d4fd8e_c22448e13c4a4507b7b0149bcf9f1499~mv2.png/v1/fit/w_254,h_254,al_c,q_80/file.png",
         "Site": "https://www.leetchi.com"
       },
-      "StartDate": "01/010/2014",
+      "StartDate": "01/10/2014",
       "EndDate": "01/05/2015",
       "Missions": ["Faire de MangoPay à un produit autonome, sans aucune dépendance de Leetchi et de le faire évoluer"],
       "Achievements": ["Mise en place de la CI/CD et des tests d'intégrations pour des éventuelles mise en PROD plus maitrisées", "Scinder les applications Leetchi et MangoPay"],
       "Tags": [".net", "SqlServer,", "Gitlab", "Teamcity"],
       "$type": "ExperienceSection",
-      "$id": 3
+      "$id": 4
     },
     {
       "Title": "Référent technique",
@@ -110,7 +129,7 @@
       "Achievements": ["TopAnnonces Mobile", "LesBonnesPromos.fr", "TopAnnonces.fr"],
       "Tags": [".net", "Entity framework,", "ASP.net MVC", "Oracle", "TFS", "Azure"],
       "$type": "ExperienceSection",
-      "$id": 4
+      "$id": 5
     },
     {
       "Title": "Référent technique",
@@ -129,7 +148,7 @@
       ],
       "Tags": ["SqlServer 2008", "WPF", "Visual Studio 2008", "Subversion", "TeamCity"],
       "$type": "ExperienceSection",
-      "$id": 5
+      "$id": 6
     },
     {
       "Title": "Team Leader",
@@ -151,7 +170,7 @@
       "Achievements": ["La refonte de système d’information national de la société SONEDE", "La refonte des solutions de gestion d’énergie (Eaux, Gaz, Electricité, et Déchets)"],
       "Tags": [".net", "Oracle", "Infragistics,", "SubVersion", "TFS"],
       "$type": "ExperienceSection",
-      "$id": 6
+      "$id": 7
     }
   ]
 }
